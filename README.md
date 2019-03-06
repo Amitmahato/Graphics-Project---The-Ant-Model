@@ -21,3 +21,6 @@ Now that you got your .babylon file ready. Follow the steps below for rendering 
         If python2 => use command : python -m SimpleHTTPServer 0
         If python3 => use command : python -m http.server 0
         Note: Here `0` refer to port address to be randomly allocated, you can change it to any free port address of your                     choice to run the server on.
+
+
+#The Complete tutorial with standart code is available at: https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d-soft-engine-from-scratch-in-c-typescript-or-javascript/
