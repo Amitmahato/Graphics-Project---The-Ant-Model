@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The Ant Model</title>
+    <style>
+        span {
+            float: left;
+        }
+        div {
+            margin-right: 150px;
+            margin-top: 50px;
+            float: right;
+        }
+        canvas {
+            width: 800px;
+            height: 400px;
+        }
+    </style>
+    <script src="mathLogic.js"></script>
+    <script src="myWorld.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+        <span>
+            <h2>Help/Controls:</h2>
+                <h3>Translate Model</h3>
+                    Move Left (X) : 4 in Numpad<br>
+                    Move Right (X) : 6 in Numpad<br>
+                    Move Up (Y) : 7 in Numpad<br>
+                    Move Down (Y) : 9 in Numpad<br>
+                    Move Forward (Z) : 8 in Numpad<br>
+                    Move Backward (Z) : 2 in Numpad<br>
+                
+                <br>
+                <h3>Rotate Model</h3>
+                    About Y-axis (Go Left) : Navigation Key Left<br>
+                    About Y-axis (Go Right) : Navigation Key Right<br>
+                    About X-axis (Go Up) : Navigation Key Up<br>
+                    About X-axis (Go Down) : Navigation Key Down<br>
+                <br>
+                <h3>Translate Light</h3>
+                    Left (X) : A<br>
+                    Right (X) : D<br>
+                    Forward (Z) : W<br>
+                    Backward (Z) : S<br>
+                    Up (Y) : Q<br>
+                    Down (Y) : E<br>
+        </span>
+        <div>
+            <canvas id="frontBuffer" width="800px" height="400px" style="background-color: rgb(39, 37, 37);"></canvas>
+            <p id="lightInfo"></p>
+            <p id="AntInfo"></p>
+            <p id="distanceInfo"></p>
+        </div>
+</body>
+</html>
